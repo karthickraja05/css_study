@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+
+html{
+    background-color: lightblue;
+
+}
+
+
+body{
+    background-color: lightblue;
+}
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    border: 10px solid white;
+    padding: 10px;
+}
