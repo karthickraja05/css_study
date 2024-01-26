@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Study</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            height: 100vh;
+            font-size: 70px;
+            color: gray;
+            scroll-snap-align: center;
+        }
+
+        section:nth-child(1) {
+            background-color: aliceblue;
+        }
+
+        section:nth-child(2) {
+            background-color: darkgreen;
+        }
+
+        section:nth-child(3) {
+            background-color: darkorange;
+        }
+
+        section:nth-child(4) {
+            background-color: cornflowerblue;
+        }
+
+        section:nth-child(5) {
+            background-color: saddlebrown;
+        }
+
+        .container{
+            overflow: scroll;
+            height: 100vh;
+            scroll-snap-type: y mandatory;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <section>Section 1</section>
+        <section>Section 2</section>
+        <section>Section 3</section>
+        <section>Section 4</section>
+        <section>Section 5</section>
+    </div>
+</body>
+
+</html>

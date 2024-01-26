@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Box</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+        }
+
+        .redBox{
+            background-color: red;
+            order: 4
+        }
+        .greenBox{
+            background-color: green;
+            order: 3
+        }
+        .brownBox{
+            background-color: brown;
+            order: 1
+        }
+        .blueBox{
+            background-color: blue;
+            order: 2
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box redBox"></div>
+        <div class="box greenBox"></div>
+        <div class="box blueBox"></div>
+        <div class="box brownBox"></div>
+    </div>
+</body>
+</html>
