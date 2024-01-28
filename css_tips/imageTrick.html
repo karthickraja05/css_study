@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover and shows big</title>
+    <style>
+        .main{
+            display: flex;
+            height: 70vh;
+            width: 50%;
+            justify-content: center;
+            flex-direction: row;
+            margin: auto;
+            margin-top: 100px;
+           
+        }
+
+        .main > div {
+            flex: 1;
+            /* height: 1rem; */
+            transition: all 1s;
+        }
+
+        .main > div:nth-child(1){
+            background-image: url('https://cdn.pixabay.com/photo/2024/01/15/21/16/dog-8510901_1280.jpg');
+            background-position: center;
+            background-size: cover;
+            background-color: green;
+        }
+        .main > div:nth-child(2){
+            background-image: url('https://cdn.pixabay.com/photo/2023/12/12/16/15/winter-8445565_1280.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main > div:nth-child(3){
+            background-image: url('https://cdn.pixabay.com/photo/2023/05/07/11/57/surfboard-7976219_1280.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main > div:nth-child(4){
+            background-image: url('https://cdn.pixabay.com/photo/2023/07/04/08/31/cats-8105667_1280.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main > div:nth-child(5){
+            background-image: url('https://cdn.pixabay.com/photo/2023/03/11/20/14/windmill-7845201_1280.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .main > div:hover{
+            flex:6;
+        }
+        .test{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="test">
+        karthick
+    </div>
+</body>
+</html>
